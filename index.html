@@ -3,11 +3,27 @@
     <head>
         <title>UX/UI HW 20-Pocket Stylist Case Study</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="/css/style.css">
     </head>
-    <body>
+    <body class="mx-5">
+        <!-- Original hw 19 nav-->
+        <header>
+            <div class="topnav" id="myTopnav">
+              <a href="#home" class="active"> <img src="images\logo_dark.png" alt="Kris Raybon logo" width="90" height="60">
+              </a>
+        
+              <a href="#resume">Resume</a>
+              <a href="#about">About</a>
+              <a href="#work_section" class="work-nav">Work
+              </a> 
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <img src="images\hamburger_menu.svg" width="64" height="64">
+              </a>
+            </div> 
+          </header>
+          <!-- Original hw 19 nav-->
         <!-- *Nav start* --> 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent sticky-top">
             <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -98,7 +114,7 @@
                     <div class="col-lg-8">
                         <div class="content-solution">
                             <h2>Leverage personal wardrobe with AI-based recommendations.</h2>
-                            <div class="flex-container">
+                            <div class="flex-container_kr">
                                 <div class="flex-items">
                                    <img src="images\virtualwardrobe_v1.png" alt="virtual_wardrobe" width="900" height="600">  
                                 </div>
@@ -222,6 +238,19 @@
                 </div>
             </div> 
         </section>
+        <!-- Original hw footer-->
+        <footer>
+            <ul>
+              <li>
+                <a class="work" href="#work">Work</a>
+              </li>
+              <li>
+                <a class="email" href="#email">Email</a>
+              </li>
+              <li>BackToTopButton</li>
+            </ul>
+           </footer>
+        <!-- Original hw footer-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
     </body>
 </html>
