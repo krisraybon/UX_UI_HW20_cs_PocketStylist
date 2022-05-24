@@ -53,6 +53,9 @@ float: left;
 
 
 /*Overview*/
+.overview {
+  padding-bottom: 100px;
+}
 .overview ul {
 list-style: none;
 margin: 0;
